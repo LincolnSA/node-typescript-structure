@@ -21,18 +21,18 @@ Estrutura base para projetos com typescript ja configurado o ts-node-dev, eslint
 - yarn init -y
 - yarn add -D typescript
 - yarn tsc --init : criar e configurar o tsconfig.json
-- yarn add -D ts-node-dev : configurar o package.json
-  "dev": "ts-node-dev --respawn --transpileOnly --ignore-watch node_modules --no-notify src/server.ts"
+- yarn add -D ts-node-dev : configurar o package.json <br>
+  "dev": "ts-node-dev --respawn --transpileOnly --ignore-watch node_modules --no-notify src/server.ts" <br><br>
 
 - yarn add -D eslint
 - yarn eslint --init : configurar 
 - yarn add -D allDependences
-- .eslintignore : criar e configurar 
+- .eslintignore : criar e configurar <br><br>
 
-- yarn add -D allDependences
+- yarn add -D (babel) allDependences
 - babel.config.js : criar e configurar
-- configurar o package.json
-  "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
+- configurar o package.json <br>
+  "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",<br>
   "start": "node dist/server.js"
 
 Feito com ♥ by Lincoln silva :wave:
